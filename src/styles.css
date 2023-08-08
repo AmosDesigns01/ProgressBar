@@ -1,0 +1,53 @@
+:root {
+  --color1: #12c2e9;
+  --color2: #c471ed;
+  --color3: #f64f59;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.curved {
+  width: 20rem;
+  height: 20rem;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.curved svg {
+  position: relative;
+}
+
+.circle-background {
+  fill: none;
+  stroke: #faa9c6;
+  stroke-width: 1.2rem;
+}
+
+.circle-progress {
+  fill: none;
+  /* stroke: var(--color1); */
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.2rem;
+}
+
+.circle-text {
+  font-size: 3rem;
+  font-weight: 600;
+  background: linear-gradient(#fc58b3, #feae68);
+  background: -webkit-linear-gradient(#fc58b3, #feae68);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.circleSvg {
+  margin: auto;
+}
